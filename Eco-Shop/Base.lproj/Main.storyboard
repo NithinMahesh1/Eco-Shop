@@ -179,10 +179,6 @@
                                             <segue destination="rOY-KT-wB9" kind="show" id="Lnw-mD-jzH"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Makeup" translatesAutoresizingMaskIntoConstraints="NO" id="Hfq-zm-IgU">
-                                        <rect key="frame" x="8" y="123" width="123" height="117"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info: Organic Makeup" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaM-eD-yTe">
                                         <rect key="frame" x="139" y="123" width="236" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1762,8 +1758,8 @@
         <image name="Unknown" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OqH-Y3-wik"/>
-        <segue reference="t4C-Mp-vFK"/>
+        <segue reference="wgX-3K-0H9"/>
+        <segue reference="Lnw-mD-jzH"/>
         <segue reference="5po-3l-bXx"/>
         <segue reference="P1f-Ya-cZb"/>
         <segue reference="qG9-Fu-5V0"/>
