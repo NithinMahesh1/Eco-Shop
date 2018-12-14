@@ -2,7 +2,6 @@
 //  ProductsTableViewController.swift
 //  GoodAsOldPhones
 //
-//  Copyright © 2016 Code School. All rights reserved.
 //
 
 import UIKit
@@ -16,14 +15,13 @@ class ProductsTableViewController: UITableViewController {
     
     products = [
       Product(name: "Coola Hair and Scalp Treatment", cellImageName: "image-cell1", fullscreenImageName: "phone-fullscreen1"),
-      Product(name: "Go Green", cellImageName: "image-cell2", fullscreenImageName: "phone-fullscreen2"),
-      Product(name: "1937 Desk Set", cellImageName: "image-cell3", fullscreenImageName: "phone-fullscreen3"),
-      Product(name: "1984 Moto Portable", cellImageName: "image-cell4", fullscreenImageName: "phone-fullscreen4")
+      Product(name: "Go Green Skin Care", cellImageName: "image-cell2", fullscreenImageName: "phone-fullscreen2"),
+      Product(name: "BCG Renewal T-Shirt", cellImageName: "image-cell3", fullscreenImageName: "phone-fullscreen3"),
+      Product(name: "Lush Christmas Bath Bomb", cellImageName: "image-cell4", fullscreenImageName: "phone-fullscreen4")
     ]
   }
 
 
-  // MARK: - View Transfer
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "showProduct" {
       if let cell = sender as? UITableViewCell,
@@ -36,7 +34,6 @@ class ProductsTableViewController: UITableViewController {
 }
 
 
-// MARK: - UITableViewDataSource
 extension ProductsTableViewController {
     override func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int

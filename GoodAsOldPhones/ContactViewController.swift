@@ -2,7 +2,6 @@
 //  ContactViewController.swift
 //  GoodAsOldPhones
 //
-//  Copyright © 2016 Code School. All rights reserved.
 //
 
 import UIKit
@@ -10,12 +9,21 @@ import UIKit
 class ContactViewController: UIViewController {
   
   @IBOutlet weak var scrollView: UIScrollView!
-  
+  @IBOutlet weak var outputFav: UILabel!
+    
+  var myString = String()
+    
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
+    outputFav.text = myString
     view.addSubview(scrollView)
   }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondController = segue.destination as! ProductViewController
+        //secondController.myString = outputFav.text
+    }
   
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()

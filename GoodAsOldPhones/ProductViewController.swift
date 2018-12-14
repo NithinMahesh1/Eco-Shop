@@ -2,10 +2,10 @@
 //  ViewController.swift
 //  GoodAsOldPhones
 //
-//  Copyright © 2016 Code School. All rights reserved.
 //
 
 import UIKit
+var storeFav = [UILabel]()
 
 class ProductViewController: UIViewController {
 
@@ -23,8 +23,13 @@ class ProductViewController: UIViewController {
       productImageView.image = UIImage(named: imageName)
     }
   }
-
-  @IBAction func addToCartButtonDidTap(_ sender: AnyObject) {
-    print("Add to cart successfully")
+    
+   
+    
+   
+    
+    @IBAction func addToFavorites( sender: AnyObject) {
+    print("Add to favorites successfully")
   }
+    
 }
