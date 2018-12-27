@@ -1,8 +1,7 @@
 Eco-Shop
-==========
+======
 
-Brought to you by Nithin Mahesh
-=========
+### Brought to you by Nithin Mahesh
 
 ## Brief Introduction: 
 
