@@ -5,8 +5,8 @@ Eco-Shop
 
 ## Brief Introduction: 
 
-First time officially working on swift and the result was the creation of this application for my User Interface class (teacher provided 0 help and didn't actually know any swift). 
+First time officially working on swift and the result was the creation of this application for my UI class at UMass Amherst. 
 
 ## Screenshots
-![Eco-Shop](./Eco-Shop.GIF)
+![Eco-Shop](./Eco-Shop_Use.GIF)
 =======
